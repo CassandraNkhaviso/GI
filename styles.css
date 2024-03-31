@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: cursive;
+    line-height: 1.5;
+    background-image: url("https://images.pexels.com/photos/4014721/pexels-photo-4014721.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-position: center center;
+      
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+font-family: monospace;
+font-style: oblique;
+font-weight: bolder;
+color: rgb(199, 184, 214);
+font-size: 30px;
+
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;  
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    transition: all 2s linear;
+}
+.navbar:hover{
+    color: darkblue;
+    cursor: pointer;
+    background: blueviolet;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    text-align: justify;
+   
+}
+#testimonials {
+    background-color: #d81681;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-bottom: 30px;
+    
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.offer{
+   position: fixed;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+
+.comp{
+    background-color: black;
+    position:absolute ;
+    top: 150px;
+    right: 10px;
+    width: 200px;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow: inset;
+
+}
+.ad{
+    text-align: justify;
+    margin-top: 200px;
+}
