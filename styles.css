@@ -32,6 +32,11 @@ color: rgb(199, 184, 214);
 font-size: 30px;
 
 }
+.logo:hover{
+    transition: all 1s linear;
+    color: #d81681;
+    cursor: pointer;
+}
 
 .logo img {
     width: 50px;
@@ -46,9 +51,9 @@ font-size: 30px;
     transition: all 2s linear;
 }
 .navbar:hover{
-    color: darkblue;
+    color: rgb(139, 0, 104);
     cursor: pointer;
-    background: blueviolet;
+    background-color: lightpink;
 }
 
 .navbar li {
@@ -75,25 +80,25 @@ section h2 {
 }
 #testimonials {
     background-color: #d81681;
-    padding: 10px;
     text-align: center;
   }
   
   .testimonial {
     margin-bottom: 30px;
     
+    
   }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
+
 .offer{
-   position: fixed;
+   text-align: justify;
     list-style: none;
     justify-content: space-between;
+}
+.offer:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 1s linear;
 }
 
 
@@ -111,5 +116,16 @@ footer {
 }
 .ad{
     text-align: justify;
-    margin-top: 200px;
+    margin-top: 40px;
+}
+.ad:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    transition: all 3s linear;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
