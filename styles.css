@@ -10,6 +10,7 @@ body {
     background-image: url("https://images.pexels.com/photos/4014721/pexels-photo-4014721.jpeg?auto=compress&cs=tinysrgb&w=600");
     background-size: cover;
     background-position: center center;
+    
       
 }
 
@@ -100,6 +101,9 @@ section h2 {
     cursor: pointer;
     transition: all 1s linear;
 }
+.location{
+    text-align: top-right;
+}
 
 
 
@@ -112,6 +116,10 @@ section h2 {
     padding: 2px;
     border-radius: 15px;
     box-shadow: inset;
+
+}
+.about{
+padding: 5px;
 
 }
 .ad{
